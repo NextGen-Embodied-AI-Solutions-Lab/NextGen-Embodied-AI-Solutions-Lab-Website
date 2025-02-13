@@ -3,7 +3,7 @@
 
 # NextGen-Embodied-AI-Solutions-Lab's Website
 
-An engaging 1-3 sentence description of your lab.
+Lab description
 
 {% include section.html %}
 
