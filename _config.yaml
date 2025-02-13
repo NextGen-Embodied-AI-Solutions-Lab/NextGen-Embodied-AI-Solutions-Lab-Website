@@ -7,13 +7,13 @@ footer: images/background.jpg
 proofer: false
 
 # site social media and other links
-links:
-  email: contact@NextGen-Embodied-AI-Solutions-Lab.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: NextGen-Embodied-AI-Solutions-Lab
-  twitter: NextGen-Embodied-AI-Solutions-Lab
-  youtube: NextGen-Embodied-AI-Solutions-Lab
+# links:
+#   email: contact@NextGen-Embodied-AI-Solutions-Lab.com
+#   orcid: 0000-0001-8713-9213
+#   google-scholar: ETJoidYAAAAJ
+#   github: NextGen-Embodied-AI-Solutions-Lab
+#   twitter: NextGen-Embodied-AI-Solutions-Lab
+#   youtube: NextGen-Embodied-AI-Solutions-Lab
 
 ### jekyll settings
 
@@ -30,18 +30,18 @@ defaults:
     values:
       layout: member
   # markdown files in /_posts
-  - scope:
-      type: "posts"
-    values:
-      layout: post
+  # - scope:
+  #     type: "posts"
+  #   values:
+  #     layout: post
 
 collections:
   # generate page for each member
   members:
     output: true
   # generate page for each post
-  posts:
-    output: true
+  # posts:
+  #   output: true
 
 # jekyll plugins
 plugins:
