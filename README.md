@@ -5,6 +5,6 @@
 
   # NextGen-Embodied-AI-Solutions-Lab's Website
 
-  Visit **[website url](#)** 🚀
+  Visit **[nextgen-embodied-ai-solutions-lab.github.io/NextGen-Embodied-AI-Solutions-Lab-Website](https://nextgen-embodied-ai-solutions-lab.github.io/NextGen-Embodied-AI-Solutions-Lab-Website)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
