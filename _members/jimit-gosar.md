@@ -1,6 +1,6 @@
 ---
 name: Jimit Gosar
-image: images/photo.jpg
+image: images/jimit.jpg
 role: masters
 group: student
 ---
