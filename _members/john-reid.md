@@ -1,6 +1,6 @@
 ---
 name: John Reid
-image: images/photo.jpg
+image: images/reid.jpg
 role: principal-investigator
 affiliation: University of Illinois at Urbana-Champaign
 aliases:
