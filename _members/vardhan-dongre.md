@@ -1,6 +1,6 @@
 ---
 name: Vardhan Dongre
-image: images/vardhan.jpeg
+image: images/vardhan.jpg
 role: PhD
 group: student
 ---
