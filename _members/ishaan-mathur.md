@@ -1,6 +1,6 @@
 ---
 name: Ishaan Mathur
-image: images/photo.jpg
+image: images/ishaan.jpeg
 role: masters
 group: student
 ---
