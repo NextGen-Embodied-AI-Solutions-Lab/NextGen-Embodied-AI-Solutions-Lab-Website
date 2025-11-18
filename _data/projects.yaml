@@ -1,47 +1,27 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Blue Boat Project
+  subtitle: Embodied AI Research
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: The Blue Boat Project focuses on developing advanced embodied AI systems for autonomous navigation and interaction in complex environments.
   tags:
-    - resource
+    - research
+    - embodied-ai
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: AMIGA Project
+  subtitle: Autonomous Multi-modal Intelligence
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: The AMIGA Project explores multi-modal AI systems that integrate vision, language, and action for intelligent autonomous agents.
   tags:
-    - resource
+    - research
+    - robotics
 
-- title: Cool Tutorial
-  subtitle: a subtitle
+- title: CERL Project
+  subtitle: Cognitive Embodied Robotics Lab
+  group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: The CERL Project investigates cognitive architectures for embodied robots, combining perception, reasoning, and action in unified systems.
   tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+    - research
+    - robotics
+    - cognitive-ai

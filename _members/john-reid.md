@@ -1,5 +1,5 @@
 ---
-name: John Reid
+name: John F. Reid
 image: images/reid.jpg
 role: principal-investigator
 affiliation: University of Illinois at Urbana-Champaign

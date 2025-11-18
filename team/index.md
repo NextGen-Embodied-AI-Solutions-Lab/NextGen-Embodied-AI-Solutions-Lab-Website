@@ -1,21 +1,26 @@
 ---
 title: Team
 nav:
-  order: 3
+  order: 2
   tooltip: About our team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
-
-
+# Team
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+## Principal Investigator
 
+{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" style="square" %}
 
+## Team Members
 
+{% include section.html %}
 
+{% include list.html data="members" component="portrait" filter="role != 'principal-investigator' and role != 'alumni'" style="square" %}
 
-{% include grid.html style="square" content=content %}
+## Past Members
+
+{% include section.html %}
+
+{% include list.html data="members" component="portrait" filter="role == 'alumni'" style="square" %}

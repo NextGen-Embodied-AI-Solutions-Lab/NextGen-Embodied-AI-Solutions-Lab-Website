@@ -5,10 +5,11 @@ a {
   color: var(--primary);
   transition: color var(--transition);
   overflow-wrap: break-word;
+  text-decoration: none;
 }
 
 a:hover {
-  color: var(--text);
+  color: var(--secondary);
 }
 
 a:not([href]) {

@@ -1,80 +1,64 @@
 ---
+nav:
+  order: 1
+  tooltip: Home
 ---
 
-# NextGen-Embodied-AI-Solutions-Lab's Website
-
-Lab description
+# Welcome
 
 {% include section.html %}
 
-## Highlights
-<!---
-{% capture text %}
+The NextGen-Embodied-AI-Solutions Lab conducts cutting-edge research in embodied artificial intelligence, developing innovative solutions that bridge the gap between AI systems and physical environments. Our work spans multiple domains including robotics, computer vision, natural language processing, and human-AI interaction.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+## Our Team
 
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+{% include section.html %}
 
-{% endcapture %}
+Our diverse team of researchers works collaboratively to advance the state-of-the-art in embodied AI systems.
 
 {%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
+  include list.html
+  data="members"
+  component="portrait"
+  filter="role == 'principal-investigator'"
+  style="square"
 %}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 {%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
+  include list.html
+  data="members"
+  component="portrait"
+  filter="role != 'principal-investigator'"
+  style="square"
 %}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
---->
-{% capture text %}
-
 
 {%
   include button.html
   link="team"
-  text="Meet our team"
+  text="View All Team Members"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
 %}
 
-{% endcapture %}
+## Our Projects
+
+{% include section.html %}
+
+We develop innovative projects that push the boundaries of embodied AI research.
 
 {%
-  include feature.html
-  image="images/team.jpg"
-  link="team"
-  title="Our Team"
-  text=text
+  include list.html
+  data="projects"
+  component="card"
+  style="square"
+%}
+
+{%
+  include button.html
+  link="projects"
+  text="View All Projects"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
 %}
