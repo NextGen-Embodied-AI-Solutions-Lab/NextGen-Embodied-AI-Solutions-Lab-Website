@@ -1,18 +1,18 @@
 [data-dark=false] {
-  --primary: #0795d9;
-  --secondary: #7dd3fc;
-  --text: #000000;
+  --primary: #E84A27; /* Illinois Orange */
+  --secondary: #13294B; /* Illinois Blue */
+  --text: #333333;
   --background: #ffffff;
-  --background-alt: #fafafa;
+  --background-alt: #f8f9fa;
   --light-gray: #e0e0e0;
-  --gray: #808080;
-  --dark-gray: #404040;
+  --gray: #666666;
+  --dark-gray: #13294B;
   --overlay: #00000020;
 }
 
 [data-dark=true] {
-  --primary: #0795d9;
-  --secondary: #075985;
+  --primary: #E84A27;
+  --secondary: #13294B;
   --text: #ffffff;
   --background: #181818;
   --background-alt: #1c1c1c;
@@ -23,9 +23,9 @@
 }
 
 :root {
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
+  --title: "Dosis", sans-serif;
+  --heading: "Dosis", sans-serif;
+  --body: "Open Sans", sans-serif;
   --code: "Roboto Mono", monospace;
   --large: 1.2rem;
   --xl: 1.4rem;
@@ -36,9 +36,9 @@
   --bold: 600;
   --spacing: 2;
   --compact: 1.5;
-  --rounded: 3px;
-  --shadow: 0 0 10px 0 var(--overlay);
-  --transition: 0.2s ease;
+  --rounded: 8px;
+  --shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+  --transition: 0.3s ease;
 }
 
 /*# sourceMappingURL=-theme.css.map */

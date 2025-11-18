@@ -56,6 +56,13 @@
   border-radius: 999px;
   object-fit: cover;
   box-shadow: var(--shadow);
+  border: 3px solid var(--primary);
+  transition: all var(--transition);
+}
+
+.portrait:hover .portrait-image {
+  border-color: var(--secondary);
+  box-shadow: 0 4px 15px rgba(232, 74, 39, 0.3);
 }
 
 .portrait[data-style=tiny] .portrait-image {
